@@ -10,7 +10,7 @@ const App = () => {
         setTimeout(() => {
             setLoaded(true)
         }, 3000);
-    }, [loaded])
+    }, [])
 
     if (loaded) {
         return (
